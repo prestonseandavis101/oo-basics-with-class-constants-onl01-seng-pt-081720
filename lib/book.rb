@@ -12,9 +12,9 @@ class Book #<-- defines our class
     puts "Flipping the page...wow, you read fast!"
   end
   
-  def genre=(genre)
-    @genre=genre
-    GENRES << genre
+  def genre=(genre) #<--- setter? 
+    @genre=genre 
+    GENRES << genre #<--- shovels into empty array
     
   end
 
