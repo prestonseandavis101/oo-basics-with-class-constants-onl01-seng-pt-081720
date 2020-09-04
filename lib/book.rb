@@ -4,11 +4,11 @@ class Book #<-- defines our class
   
   GENRES = [] # <---constant variable, availainle to all instances of book class 
 
-  def initialize(title)
+  def initialize(title) #<--- initialize a new method of title, aka defines the title
     @title = title
   end
 
-  def turn_page
+  def turn_page #<--- teaches book how turn its page, puts a string
     puts "Flipping the page...wow, you read fast!"
   end
   
